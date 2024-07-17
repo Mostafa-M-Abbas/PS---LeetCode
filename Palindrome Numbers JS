@@ -1,0 +1,9 @@
+var isPalindrome = function(x) {
+        let num = String(x).split('').reverse().join('');
+
+    if (x == num) {
+        return true;
+    }else{
+        return false ; 
+    }
+};
